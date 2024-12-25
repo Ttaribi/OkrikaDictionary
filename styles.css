@@ -1,0 +1,154 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; 
+  background-color: #f4f8f5; 
+}
+
+/* Header Styles */
+.site-header {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+/* Nav lists */
+.nav-left,
+.nav-right {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem;
+}
+
+.nav-left {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.nav-right {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+/* Centered logo/title */
+.site-logo {
+  flex: 1;
+  margin: 0;
+  font-size: 2rem;           /* Larger font for main title */
+  font-weight: 700;
+  text-align: center;
+  color: #165c44;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Nav links */
+.nav-left a, .nav-right a {
+  text-decoration: none;
+  color: #165c44;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem; /* slightly larger link text */
+}
+
+/* Search section */
+.search-section {
+  max-width: 700px;
+  margin: 150px auto 0 auto; 
+  padding: 0 1rem;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* The instructions text */
+.search-instructions {
+  font-size: 1.6rem; /* Larger font size for instructions */
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+/* Search container */
+.search-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.search-btn {
+  background-color: #165c44;
+  color: #fff;
+  border: none;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.search-btn:hover {
+  background-color: #114f38;
+}
+
+/* Results Section */
+.search-result {
+  margin-top: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Each word entry displayed in a card */
+.word-entry {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.word-entry h2 {
+  font-weight: 700;
+  font-size: 2rem; /* Bigger heading font size */
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.word-entry h2 small {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #555;
+  margin-left: 0.75rem;
+}
+
+.word-entry p {
+  margin: 1rem 0;
+  font-size: 1.2rem; /* Bigger body text */
+  line-height: 1.5;
+  color: #333;
+}
+
+.word-entry p strong {
+  font-weight: 700;
+  color: #165c44;
+  margin-right: 0.5rem;
+}

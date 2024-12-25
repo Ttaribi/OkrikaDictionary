@@ -1,0 +1,97 @@
+/* about.css */
+
+/* Reusing the same base font family from Google Fonts (Raleway) */
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  /* Center the .about-section within a max width, similar to your .search-section */
+  .about-section {
+    max-width: 700px;
+    margin: 120px auto 0 auto; /* Space from the top, and centered horizontally */
+    padding: 0 1rem;
+    text-align: center;        /* Make all text centered; change to left if preferred */
+    color: #333;               /* Basic text color */
+  }
+  
+  /* Style for the main heading on the about page */
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #165c44;            /* Match the green color from your nav links if you like */
+  }
+  
+  /* Paragraph styling */
+  .about-section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+  }
+  
+  /* Sub-heading for "Goals" */
+  .about-section h3 {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #165c44;
+  }
+  
+  /* List styling */
+  .about-section ul {
+    list-style-type: disc;
+    text-align: left;  /* Bulleted lists often look better left-aligned */
+    margin: 1rem auto;
+    padding-left: 1.5rem;
+    max-width: 500px;  /* Keep the list narrower if you like */
+  }
+  
+  .about-section ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  /* 
+    ...Add any other unique styling for the About page here...
+  */
+  .site-footer {
+    background-color: #165c44; /* your green */
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  
+  /* Container that wraps icons + text */
+  .footer-content {
+    display: flex;
+    flex-direction: column; /* stack "icons row" above the text */
+    align-items: center;
+    gap: 0.75rem;          /* spacing between icons row and text */
+  }
+  
+  /* Force icons to sit side-by-side */
+  .footer-icons {
+    display: flex;
+    flex-direction: row;  /* row is the default, but explicit is good */
+    gap: 1rem;            /* spacing between icons */
+    justify-content: center;
+  }
+  
+  /* Individual icon links */
+  .footer-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .footer-icon:hover {
+    color: #0c3b2c;       /* hover color (slightly darker green) */
+  }
+  
+  /* Footer text stays below icons */
+  .footer-text {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  

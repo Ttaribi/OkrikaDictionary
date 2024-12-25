@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Okrika Dictionary - All Words</title>
+
+  <!-- Google Fonts (same as home) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" />
+  
+  <!-- All Words Page CSS -->
+  <link rel="stylesheet" href="all-words.css" />
+</head>
+<body>
+
+  <!-- Header (same style as home, but you can adjust if needed) -->
+  <header class="site-header">
+    <nav class="navbar">
+      <ul class="nav-left">
+        <!-- Link back to the home page -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <h1 class="site-logo">Okrika Dictionary</h1>
+      <ul class="nav-right">
+        <!-- If you want, you can highlight the "All Words" link or remove it -->
+        <li><a href="#">All Words</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="words-section">
+      <h2 class="section-title">All Okrika Words</h2>
+
+      <!-- Container where we'll list the sorted words -->
+      <div class="word-list"></div>
+    </section>
+  </main>
+
+  <!-- Modal (hidden by default) -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-card" id="modalCard">
+      <button class="modal-close-btn" id="modalCloseBtn">×</button>
+      <!-- The content for a clicked word will be inserted here -->
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- All Words Page JS -->
+  <script src="all-words.js"></script>
+</body>
+</html>

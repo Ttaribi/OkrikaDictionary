@@ -1,0 +1,413 @@
+[
+    {
+      "english": "house",
+      "okrika": "wári",
+      "partOfSpeech": "noun",
+      "definition": "A building for human habitation",
+      "example": "Wa wári múñ àbè",
+      "translation": "We are going to the house"
+    },
+    {
+      "english": "when",
+      "okrika": "ñdè sìkí",
+      "partOfSpeech": "adverb",
+      "definition": "Indicates at what time something will occur",
+      "example": "ñdè sìkí wá múñ be?",
+      "translation": "When will we go?"
+    },
+    {
+      "english": "thank you",
+      "okrika": "mìébákà",
+      "partOfSpeech": "adjective",
+      "definition": "A polite expression used when acknowledging a gift, service, or compliment",
+      "example": "Fíyé mì mìébákà",
+      "translation": "Thank you for the food"
+    },
+    {
+      "english": "food",
+      "okrika": "fíyé",
+      "partOfSpeech": "noun",
+      "definition": "Any nutritious substance that people or animals eat or drink",
+      "example": "Mi fíyé bèlèé mè",
+      "translation": "This food is tasty"
+    },
+    {
+        "english": "water",
+        "okrika": "mèngí",
+        "partOfSpeech": "noun",
+        "definition": "A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain and is the basis of the fluids of living organisms",
+        "example": "Mèngí ma óbókù mè",
+        "translation": "The water is cold"
+      },
+      {
+        "english": "to work",
+        "okrika": "fìrìwèngí",
+        "partOfSpeech": "action",
+        "definition": "Activity involving mental or physical effort done in order to achieve a purpose or result",
+        "example": "À fìrìwèngí àbè",
+        "translation": "I am working"
+      },
+      {
+        "english": "God",
+        "okrika": "Támúnó",
+        "partOfSpeech": "noun",
+        "definition": "The creator and ruler of the universe and source of all moral authority; the supreme being",
+        "example": "Ye wá Támúnó bòmá",
+        "translation": "Let us praise God"
+      },
+      {
+        "english": "please",
+        "okrika": "pasísī",
+        "partOfSpeech": "noun",
+        "definition": "A polite addition to a request",
+        "example": "Pasísī, í wérísó",
+        "translation": "Please, leave me alone"
+      },
+      {
+        "english": "to say",
+        "okrika": "bèé",
+        "partOfSpeech": "verb",
+        "definition": "To speak or write in order to convey information or to express ideas, feelings, thoughts, etc.",
+        "example": "Chèyè í nwō bèé?",
+        "translation": "What did you say?"
+      },
+      {
+        "english": "if, whether",
+        "okrika": "nwòfá",
+        "partOfSpeech": "conjunction",
+        "definition": "Introduces a conditional clause",
+        "example": "Nwòfá í múñ, à mónō bìà",
+        "translation": "If you go, I will sleep"
+      },
+      {
+        "english": "while",
+        "okrika": "sìméògbò",
+        "partOfSpeech": "conjunction",
+        "definition": "During the time that",
+        "example": "Sìméògbò í ómì, bô yéfí",
+        "translation": "While you are here, come and eat"
+      },
+      {
+        "english": "tomorrow",
+        "okrika": "bá",
+        "partOfSpeech": "noun",
+        "definition": "The day after today",
+        "example": "Ḅá í múñ be?",
+        "translation": "Will you go tomorrow?"
+      },
+      {
+        "english": "to play",
+        "okrika": "tī",
+        "partOfSpeech": "verb",
+        "definition": "Engage in activity for enjoyment and recreation rather than a serious or practical purpose",
+        "example": "Ìnì gbòlòmà tī sàm",
+        "translation": "They have played together"
+      },
+      {
+        "english": "school",
+        "okrika": "yé dáwó wárí",
+        "partOfSpeech": "noun",
+        "definition": "An institution for educating",
+        "example": "À yé dáwó wárí múñ bìà",
+        "translation": "I am going to school"
+      },
+      {
+        "english": "star",
+        "okrika": "lòliā",
+        "partOfSpeech": "noun",
+        "definition": "A fixed luminous point in the night sky that is a large, remote incandescent body like the sun",
+        "example": "Lòliā ma dǐkí",
+        "translation": "Look at the stars"
+      },
+      {
+        "english": "to buy",
+        "okrika": "fé",
+        "partOfSpeech": "verb",
+        "definition": "Obtain in exchange for payment",
+        "example": "Múñ fúló mi fé bo",
+        "translation": "Go buy and bring the soup"
+      },
+      {
+        "english": "to hurry, quickly",
+        "okrika": "béē",
+        "partOfSpeech": "adverb",
+        "definition": "To move or act with haste",
+        "example": "béē bo ",
+        "translation": "Come quickly"
+      },
+      {
+        "english": "to write",
+        "okrika": "gíén",
+        "partOfSpeech": "verb",
+        "definition": "To mark",
+        "example": "Í gíén au?",
+        "translation": "Are you writing?"
+      },
+      {
+        "english": "come",
+        "okrika": "bô",
+        "partOfSpeech": "verb",
+        "definition": "To move or travel toward or into a place",
+        "example": "Kálátòkù bô",
+        "translation": "Small child come"
+      },
+      {
+        "english": "today",
+        "okrika": "mímgbà",
+        "partOfSpeech": "noun",
+        "definition": "On or in the course of this present day",
+        "example": "Mímgbà ò dàdíkì gíén mè",
+        "translation": "He wrote his exam today"
+      },
+      {
+        "english": "much; very much; greatly",
+        "okrika": "òpúmà",
+        "partOfSpeech": "adverb",
+        "definition": "To a great extent",
+        "example": "Òpúmà mìébákà",
+        "translation": "Thank you very much"
+      },
+      {
+        "english": "to understand",
+        "okrika": "kàínbó",
+        "partOfSpeech": "verb",
+        "definition": "Perceive the intended meaning of (words, a language, or speaker)",
+        "example": "Í kàínbó?",
+        "translation": "Do you understand?"
+      },
+      {
+        "english": "afterwards; sometime later",
+        "okrika": "kélédīkī",
+        "partOfSpeech": "adverb",
+        "definition": "At a later or future time",
+        "example": "kélédīkī à mèngí bû bìà?",
+        "translation": "Later I will drink water"
+      },
+      {
+        "english": "not quite long",
+        "okrika": "wèkéréngè ",
+        "partOfSpeech": "adverb",
+        "definition": "A short period of time",
+        "example": "Wèkéréngè à yé dáwó wárí pákábó sàm",
+        "translation": "I have just come out from school"
+      },
+      {
+        "english": "to look for; to want; to search;",
+        "okrika": "dòkí",
+        "partOfSpeech": "verb",
+        "definition": "A short period of time",
+        "example": " Chèyè í ñwò dòkí au?",
+        "translation": "What are you looking for?"
+      },
+      {
+        "english": "because",
+        "okrika": "ànìàtíbì",
+        "partOfSpeech": "conjunction",
+        "definition": "For the reason that",
+        "example": "Ànìàtíbì àní ìyáyé", 
+        "translation": "Because that is mine"
+      },
+      {
+        "english": "to allow; to agree",
+        "okrika": "bèrènĩ",
+        "partOfSpeech": "verb",
+        "definition": "To give permission",
+        "example": "À bèrènĩ mè", 
+        "translation": "I agree"
+      },
+      {
+        "english": "to pass by",
+        "okrika": "bǒro",
+        "partOfSpeech": "verb",
+        "definition": "To move past",
+        "example": "Àní bǒro sàm", 
+        "translation": "That has passed"
+      },
+      {
+        "english": "to look",
+        "okrika": "dìkí",
+        "partOfSpeech": "verb",
+        "definition": "To direct one's gaze in a specified direction",
+        "example": "Mî dìkí", 
+        "translation": "Look at this"
+      },
+      {
+        "english": "not enough",
+        "okrika": "làká",
+        "partOfSpeech": "adverb",
+        "definition": "Insufficient",
+        "example": "Mî ìgbìkì làká", 
+        "translation": "This money is not enough"
+      },
+      {
+        "english": "song",
+        "okrika": "nímé",
+        "partOfSpeech": "noun",
+        "definition": "A short poem or other set of words set to music or meant to be sung",
+        "example": "Nímé mi pókí", 
+        "translation": "Listen to the song"
+      },
+      {
+        "english": "who",
+        "okrika": "túbò",
+        "partOfSpeech": "pronoun",
+        "definition": "Asking for information specifying a person",
+        "example": "Àní túbò?", 
+        "translation": "Who is that?"
+      },
+      {
+        "english": "to pray",
+        "okrika": "téké",
+        "partOfSpeech": "verb",
+        "definition": "To address God or a god with adoration, confession, supplication, or thanksgiving",
+        "example": "Yé wá téké", 
+        "translation": "Let us pray"
+      },
+      {
+        "english": "now; this moment",
+        "okrika": "míókù",
+        "partOfSpeech": "adverb",
+        "definition": "At the present time",
+        "example": "Míókù í bô au?", 
+        "translation": "Are you coming now?"
+      },
+      {
+        "english": "to stay; to sit down; to marry",
+        "okrika": "sìmē",
+        "partOfSpeech": "verb",
+        "definition": "At the present time",
+        "example": "Míángà sìmē", 
+        "translation": "Stay here"
+      },
+      {
+        "english": "money, currency",
+        "okrika": "ìgbìkì",
+        "partOfSpeech": "noun",
+        "definition": "A current medium of exchange in the form of coins and banknotes",
+        "example": "Ó ìgbìkì nyàná mè", 
+        "translation": "He has money"
+      },
+      {
+        "english": "to have, to own",
+        "okrika": "nyàná",
+        "partOfSpeech": "verb",
+        "definition": "To possess",
+        "example": "À òbìrì nyàná mè",  
+        "translation": "I have a dog"
+      },
+      {
+        "english": "to call",
+        "okrika": "chìñ",
+        "partOfSpeech": "verb",
+        "definition": "To give a name to; to summon",
+        "example": "Kélédīkī ìrì chìñ",  
+        "translation": "Call me later"
+      },
+      {
+        "english": "what",
+        "okrika": "chèyè",
+        "partOfSpeech": "pronoun",
+        "definition": "Asking for information specifying something",
+        "example": "Chèyè fíyé fìríjì ḅíe òmí?",  
+        "translation": "What food is inside the fridge?"
+      },
+      {
+        "english": "far, distant",
+        "okrika": "ḅọlọ",
+        "partOfSpeech": "adjective",
+        "definition": "At a great distance",
+        "example": "Ìyà fìrì nyọ ḅọlọ mè",  
+        "translation": "My workplace is far"
+      },
+      {
+        "english": "to have thorough knowledge of some art; expert",
+        "okrika": "ḍị̀ñ",
+        "partOfSpeech": "adjective",
+        "definition": "Having or showing great knowledge or skill",
+        "example": "Ìkù í tèmì ḍị̀ñ?",  
+        "translation": "Do you know how to pound cocoyam?"
+      },
+      {
+        "english": "to boil",
+        "okrika": "ḍárị́",
+        "partOfSpeech": "verb",
+        "definition": "To heat a liquid until it reaches its boiling point",
+        "example": "Mèngì mị̀ ḍárị́ sà?",  
+        "translation": "Has the water boiled?"
+      },
+      {
+        "english": "to cook",
+        "okrika": "chụ̀ọ̀",
+        "partOfSpeech": "verb",
+        "definition": "To prepare (food, a dish, or a meal)",
+        "example": "À fị̀yẹ̀ chụ̀ọ̀ ḅi mẹ̀",  
+        "translation": "I want to cook food"
+      },
+      {
+        "english": "to gather",
+        "okrika": "kóḅírì",
+        "partOfSpeech": "verb",
+        "definition": "To bring together into one group",
+        "example": "Ígbé ma kóḅírì",  
+        "translation": "Gather the boxes"
+      },
+      {
+        "english": "to hold a meeting",
+        "okrika": "kòḅìrìá",
+        "partOfSpeech": "verb",
+        "definition": "To bring together into one group",
+        "example": "Sẹ̀nì àpụ̀ mà, ị̀nị̀ kòḅị̀rị̀à ḅíè òmí",  
+        "translation": "The elders are in a meeting"
+      },
+      {
+        "english": "to do",
+        "okrika": "yè",
+        "partOfSpeech": "verb",
+        "definition": "To perform an action",
+        "example": "Chèyè í ñwọ̀ñ yè àụ̀?",  
+        "translation": "What are you doing"
+      },
+      {
+        "english": "so that",
+        "okrika": "mị̀ẹ̀ sè ",
+        "partOfSpeech": "adverb",
+        "definition": "In order that",
+        "example": "Àníjú kpọ̀njị́sìmé mị̀ẹ̀ sè ó ọrí bìà",  
+        "translation": "Sit there so that he will see you"
+      },
+      {
+        "english": "yesterday",
+        "okrika": "ḅị̀á",
+        "partOfSpeech": "noun",
+        "definition": "The day before today",
+        "example": "Ḅị̀á ó só mè",  
+        "translation": "He left yesterday"
+      },
+      {
+        "english": "my",
+        "okrika": "ìyà",
+        "partOfSpeech": "pronoun",
+        "definition": "Belonging to or associated with the speaker",
+        "example": "Ị̀yà tọ̀kụ̀ má wàrị́, ị́nị́ ị̀ru ḅù mẹ̀",  
+        "translation": "They drank wine at my daughter's house"
+      },
+      {
+        "english": "to drink",
+        "okrika": "ḅù",
+        "partOfSpeech": "verb",
+        "definition": "To take (a liquid) into the mouth and swallow",
+        "example": "Mèngí ma í ḅù sà?",  
+        "translation": "Have you drank the water?"
+      },
+      {
+        "english": "lost, finished",
+        "okrika": "fàá",
+        "partOfSpeech": "adjective",
+        "definition": "To lose knowledge of an items location; to have no more of something",
+        "example": "Sámbì ma fàá",  
+        "translation": "The keys are lost"
+      }
+    
+ 
+  ]
+  
