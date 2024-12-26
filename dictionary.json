@@ -460,24 +460,24 @@
         "okrika": "íḅásà",
         "partOfSpeech": "noun",
         "definition": "A polite greeting said in the morning",
-        "example": "Opubo, íḅásà",  
+        "example": "Opúbọ̀, íḅásà",  
         "translation": "Opubo, Good morning"
       },
       {
         "english": "welcome",
         "okrika": "íḅòsà",
         "partOfSpeech": "noun",
-        "definition": "A polite greeting said in the morning",
-        "example": "Ḍàbọ̀, íḅásà",  
+        "definition": "A polite greeting said to a new arrival",
+        "example": "Ḍàbọ̀, íḅòsà",  
         "translation": "Father, good morning"
       },
       {
         "english": "good night",
         "okrika": "ḅàwàị̀rị̀à",
         "partOfSpeech": "noun",
-        "definition": "A polite greeting said in the morning",
+        "definition": "A polite greeting said in the evening",
         "example": "Lòliā, ḅàwàị̀rị̀à",  
-        "translation": "Lòliā, good night"
+        "translation": "Lolia, good night"
       }
     
  
