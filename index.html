@@ -6,17 +6,10 @@
   <title>Okrika Dictionary</title>
 
   <!-- Google Fonts -->
-  <link 
-    rel="stylesheet" 
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" 
-  />
-
-  <!-- Git Hub icon thing-->
   <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-/>
-
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap"
+  />
   
   <!-- My Custom Styles -->
   <link rel="stylesheet" href="styles.css" />
@@ -38,19 +31,21 @@
 
   <main>
     <section class="search-section">
-      <!-- Updated instructions to mention both English and Okrika -->
       <p class="search-instructions">
         Search for words in <strong>English or Okrika</strong>
       </p>
-      
+
+      <!-- Search container with a <form> -->
       <div class="search-container">
-        <!-- Updated placeholder to reflect searching both languages -->
-        <input 
-          type="text" 
-          class="search-input" 
-          placeholder="Search in English or Okrika" 
-        />
-        <button class="search-btn">Search</button>
+        <form id="searchForm">
+          <input 
+            type="text" 
+            class="search-input" 
+            placeholder="Search in English or Okrika" 
+          />
+          <!-- This is the "submit" button thing so that pressing Enter triggers form submit -->
+          <button type="submit" class="search-btn">Search</button>
+        </form>
       </div>
 
       <!-- Container to display search results -->
@@ -58,7 +53,7 @@
     </section>
   </main>
 
-  <!-- JavaScript -->
+  <!-- My JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,9 +1,6 @@
 let dictionary = [];
 
-/**
- * Removes diacritical marks (accents) from a string,
- * e.g. "wárí" => "wari"
- */
+// Helper which will remove diacritics/accents from strings
 function removeDiacritics(str) {
   return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
@@ -19,18 +16,16 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Error loading dictionary.json:", err);
     });
 
-  // Bind the Search button click
-  const searchBtn = document.querySelector(".search-btn");
-  searchBtn.addEventListener("click", handleSearch);
+  // Grab the form element
+  const searchForm = document.getElementById("searchForm");
+  
+  // On form submit, prevent page reload and do the search
+  searchForm.addEventListener("submit", (event) => {
+    event.preventDefault(); // stop the form from reloading the page
+    handleSearch();
+  });
 });
 
-/**
- * Handle the Search button click:
- * 1) Removes accents from user's query and from dictionary fields.
- * 2) Finds partial matches in English OR Okrika.
- * 3) Sorts so EXACT matches (Okrika == query) appear first.
- * 4) Displays results, including Translation if present.
- */
 function handleSearch() {
   const inputEl = document.querySelector(".search-input");
   const resultContainer = document.querySelector(".search-result");
@@ -38,29 +33,29 @@ function handleSearch() {
   // Clear old results
   resultContainer.innerHTML = "";
 
+  // Get the user's query
   const queryRaw = inputEl.value.trim();
   if (!queryRaw) {
     resultContainer.textContent = "Please enter a word.";
     return;
   }
 
-  // Diacritics removed, lowercased user query
+  // Lowercase + remove accent marks
   const queryBase = removeDiacritics(queryRaw.toLowerCase());
 
-  // 1) Filter for partial matches (ignoring diacritics) in English or Okrika
+  // Filter the dictionary, matching partial query in either English or Okrika
   const matchedEntries = dictionary.filter((entry) => {
     const engBase = removeDiacritics(entry.english).toLowerCase();
     const okrBase = removeDiacritics(entry.okrika).toLowerCase();
     return engBase.includes(queryBase) || okrBase.includes(queryBase);
   });
 
-  // 2) If no matches, notify user
   if (matchedEntries.length === 0) {
     resultContainer.textContent = "Word not found in the dictionary.";
     return;
   }
 
-  // 3) Sort matched entries so EXACT Okrika matches appear before partial matches
+  // Sort so exact Okrika matches appear before partial matches
   matchedEntries.sort((a, b) => {
     const aBase = removeDiacritics(a.okrika).toLowerCase();
     const bBase = removeDiacritics(b.okrika).toLowerCase();
@@ -68,16 +63,12 @@ function handleSearch() {
     const aIsExact = (aBase === queryBase);
     const bIsExact = (bBase === queryBase);
 
-    // If "a" is exact but "b" is not, "a" goes first
     if (aIsExact && !bIsExact) return -1;
-    // If "b" is exact but "a" is not, "b" goes first
     if (bIsExact && !aIsExact) return 1;
-
-    // If both are exact or both partial, sort alphabetically by Okrika
     return aBase.localeCompare(bBase);
   });
 
-  // 4) Display each matched entry
+  // Display results
   matchedEntries.forEach((foundWord) => {
     const wordDiv = document.createElement("div");
     wordDiv.classList.add("word-entry");
