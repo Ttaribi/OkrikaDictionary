@@ -406,6 +406,54 @@
         "definition": "To lose knowledge of an items location; to have no more of something",
         "example": "Sámbì ma fàá",  
         "translation": "The keys are lost"
+      },
+      {
+        "english": "live, side",
+        "okrika": "àngà",
+        "partOfSpeech": "verb.noun",
+        "definition": "to reside in a place; the side of something",
+        "example": "Wà gbọ̀rù àmà àngà mẹ̀",  
+        "translation": "We live in the same town"
+      },
+      {
+        "english": "but",
+        "okrika": "Ọ̀kùmà",
+        "partOfSpeech": "conjunction",
+        "definition": "Used to introduce a statement contrasting with a previous statement",
+        "example": "Ọ̀kùmà, ị̀rị̀ yèḍìyè bọ̀-ẹ̀",  
+        "translation": "But, I am a teacher"
+      },
+      {
+        "english": "name",
+        "okrika": "ẹ̀rẹ̀",
+        "partOfSpeech": "noun",
+        "definition": "A word or set of words by which a person or thing is known, addressed, or referred to",
+        "example": "Ìyà ẹ̀rẹ̀ àní Bomà",  
+        "translation": "My name is Boma"
+      },
+      {
+        "english": "to know, to have some idea of",
+        "okrika": "némí",
+        "partOfSpeech": "verb",
+        "definition": "To be aware of through observation, inquiry, or information",
+        "example": "Ẹ̀ñ ẹ̀ñ, àtèlì mì, wà nèmì kẹ́",  
+        "translation": "No, we do not know the way"
+      },
+      {
+        "english": "where",
+        "okrika": "ñdèjù",
+        "partOfSpeech": "pronoun",
+        "definition": "Asking for information specifying a location",
+        "example": "ñdèjù ìnì ñwọ̀ñ mūñ àù?",  
+        "translation": "No, we do not know the way"
+      },
+      {
+        "english": "why",
+        "okrika": "chégósè",
+        "partOfSpeech": "pronoun",
+        "definition": "Asking for information specifying a reason",
+        "example": "Chégósè í mèngì ḅìrí eke? ",  
+        "translation": "Why won't you bathe?"
       }
     
  
