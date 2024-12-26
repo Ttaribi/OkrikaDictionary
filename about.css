@@ -10,7 +10,7 @@ body {
     max-width: 700px;
     margin: 120px auto 0 auto; /* Space from the top, and centered horizontally */
     padding: 0 1rem;
-    text-align: center;        /* Make all text centered; change to left if preferred */
+    text-align: center;        /
     color: #333;               /* Basic text color */
   }
   
@@ -38,7 +38,7 @@ body {
     color: #165c44;
   }
   
-  /* List styling */
+  /* List styling :))*/
   .about-section ul {
     list-style-type: disc;
     text-align: left;  /* Bulleted lists often look better left-aligned */
@@ -52,9 +52,7 @@ body {
     font-size: 1.1rem;
   }
   
-  /* 
-    ...Add any other unique styling for the About page here...
-  */
+  /* Footer styling */
   .site-footer {
     background-color: #165c44; /* your green */
     color: #fff;
