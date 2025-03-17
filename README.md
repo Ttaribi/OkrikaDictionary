@@ -27,5 +27,7 @@ https://github.com/user-attachments/assets/b61be20e-1b3b-47f0-825b-2e712433a741
 🛠 Technologies Used
 
 Frontend: HTML, CSS, JavaScript
+
 Data Handling: JSON
+
 Functional Enhancements: Event-driven JavaScript
