@@ -7,6 +7,7 @@ This project is built using:
 JavaScript, HTML, and CSS for the frontend
 JSON for structured language data storage and retrieval
 Event-driven JavaScript to enhance real-time search and sorting
+
 📹 Video Walkthrough
 
 https://github.com/user-attachments/assets/b61be20e-1b3b-47f0-825b-2e712433a741
