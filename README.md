@@ -9,7 +9,7 @@ JSON for structured language data storage and retrieval
 Event-driven JavaScript to enhance real-time search and sorting
 📹 Video Walkthrough
 
-![image](https://github.com/user-attachments/assets/341060d8-070b-48a1-9c65-2da4171c6c7a)
+https://github.com/user-attachments/assets/b61be20e-1b3b-47f0-825b-2e712433a741
 
 🚀 Features
 
