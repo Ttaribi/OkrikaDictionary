@@ -1,14 +1,14 @@
 let dictionary = [];
 
 document.addEventListener("DOMContentLoaded", () => {
-  // 1) Fetch the dictionary data
+  // 1 Fetch the dictionary data
   fetch("dictionary.json")
     .then((res) => res.json())
     .then((data) => {
       dictionary = data;
-      // 2) Sort by Okrika word
+      // 2 Sort by Okrika word
       dictionary.sort((a, b) => a.okrika.localeCompare(b.okrika));
-      // 3) Display in the list
+      // 3 Display in the list
       displayAllWords(dictionary);
     })
     .catch((err) => {
@@ -62,7 +62,6 @@ function openModal(wordObj) {
     <p><strong>English:</strong> ${wordObj.english}</p>
     <p><strong>Definition:</strong> ${wordObj.definition}</p>
     <p><strong>Example:</strong> ${wordObj.example}</p>
-    <!-- Add translation if desired -->
     <p><strong>Translation:</strong> ${wordObj.translation ?? ""}</p>
   `;
 

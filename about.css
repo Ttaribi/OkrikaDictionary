@@ -63,7 +63,7 @@ body {
   /* Container that wraps icons + text */
   .footer-content {
     display: flex;
-    flex-direction: column; /* stack "icons row" above the text */
+    flex-direction: column; /*gonna stack "icons row" above the text */
     align-items: center;
     gap: 0.75rem;          /* spacing between icons row and text */
   }
@@ -71,8 +71,8 @@ body {
   /* Force icons to sit side-by-side */
   .footer-icons {
     display: flex;
-    flex-direction: row;  /* row is the default, but explicit is good */
-    gap: 1rem;            /* spacing between icons */
+    flex-direction: row;  /* row is the default, but explicit is good*/
+    gap: 1rem;            /*spacing between icons */
     justify-content: center;
   }
   
@@ -84,7 +84,7 @@ body {
   }
   
   .footer-icon:hover {
-    color: #0c3b2c;       /* hover color (slightly darker green) */
+    color: #0c3b2c;       /*hover color (slightly darker green) */
   }
   
   /* Footer text stays below icons */

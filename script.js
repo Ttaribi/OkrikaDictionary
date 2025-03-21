@@ -40,7 +40,7 @@ function handleSearch() {
     return;
   }
 
-  // Lowercase + remove accent marks
+  // Lowercase  and remove accent marks
   const queryBase = removeDiacritics(queryRaw.toLowerCase());
 
   // Filter the dictionary, matching partial query in either English or Okrika
@@ -55,7 +55,7 @@ function handleSearch() {
     return;
   }
 
-  // Sort so exact Okrika matches appear before partial matches
+  // Sort so d exact Okrika matches appear before partial matches
   matchedEntries.sort((a, b) => {
     const aBase = removeDiacritics(a.okrika).toLowerCase();
     const bBase = removeDiacritics(b.okrika).toLowerCase();
